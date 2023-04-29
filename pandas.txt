@@ -1,0 +1,20 @@
+python -m notebook 
+pandas.dataframe(dic1)=dic1 er elements gula dataframe e thak
+df.to_csv('file_name.csv')=df gula .csv file e save kra
+df.to_csv('file_name.csv' index=false)=df gula .csv file e save kre index baad e
+df.head(2)=1st 2 ta index show kre
+df.tail(3)=last 3 ta index show kre
+df.describe()=count,mean,max,min,std,25%,50%,75% eigulo show kre
+pd.read_csv('file_name.csv')=file_name.csv er data show kre
+to change any row values:
+ sam=pd.read_csv('file_name.csv')
+ sam.index=['1st','2nd','3rd','4th']=index change hoy eigulo hbe
+newdf.T=transpose hoye jabe row and column
+to change one data
+ sam['marks'][2]=50(marks er 2 no row er value 50 hbe)
+
+copy any database: abc=sam.copy()
+dp.dropma()=jeikhane jeikhane ma ache oigula baad
+df.drop_duplicates(subset=['name'])=name er duplicate value ekta baad e shob remove
+df.drop_duplicates(subset=['name'],keep=False)=name er duplicate value shobgulo remove
+df.shape=row,column show kore
